@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h2{
+            background-color: burlywood;
+        }
+    </style>
+</head>
+<body style="background-color: rgb(19, 121, 133); ">
+    <center>
+        <h1>Here we are printing the dat which are comming from backend
+            by using if elif condition and nested if and for loop (collection dat type)
+        </h1>
+        
+        <!-- {% if age < 15 %}
+            <h2>{{name}} is a Kid</h2>
+        {% elif age <= 18 %}
+            <h2>{{name}} is Teenager</h2>
+        {% else %}
+            <h2>{{name}} is an Adult</h2>
+        {% endif %} -->
+        <!-- {% if age <= 30 %}
+            {% if age <= 15 %}
+                <h2><marquee>{{name}} loves to play snake and ladder game..</marquee></h2>
+                <img src="https://miro.medium.com/v2/resize:fit:6168/1*NXKxy9U-kYxiYk786dsOvA.jpeg" alt="">
+            {% else %}
+                <h2><marquee>{{name}} loves to play freefire.. </marquee></h2>
+                <img src="https://wallpapers.com/images/featured/free-fire-4k-obod7src8jkhnoo6.jpg" alt="">
+            {% endif %}
+        {% else %}
+            {% if age <= 45 %}
+                <h2><marquee>{{name}} loves to stay with their family happily ..</marquee></h2>
+                <img src="https://t3.ftcdn.net/jpg/00/64/13/44/360_F_64134449_nNPZeYZgHLSVUWMbsI0vHGIGlGDv8jam.jpg" alt="">
+            {% else %}
+                <h2><marquee>{{name}} loves to worship God..</marquee></h2>
+                <img src="https://www.shutterstock.com/image-vector/flat-world-religions-icon-set-260nw-1853828374.jpg" alt="">
+            {% endif %}
+        {% endif %} -->
+        {% for i in name %}
+            <!-- <h2>{{i}}</h2> -->
+             {{i}}
+        {% endfor %}
+
+    </center>
+</body>
+</html>
